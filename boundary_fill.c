@@ -21,7 +21,7 @@ void boundary_fill(int** matrix, int x, int y, int color, int color_original, in
 		return;
 	}
 
-	// if the color at the point (x, y) is differente then the color original point (x, y)
+	// if the color at the point (x,y) is different than color_original
 	if (matrix[x][y] != color_original)
 	{
 		return;
